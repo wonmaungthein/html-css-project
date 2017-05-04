@@ -18,21 +18,20 @@
 }
 
 .button container {
-  padding-left: 180px;
+  padding-left: 380px;
 }
 
 .btn:hover,
 .btn:focus {
     background: #F4D03F;
 }
-
 .MainTitle{
   background-color:#3f7bbf;
   border-color:black;
   padding: 50px;
   padding-left:150px;
   padding-right:0px;
-  padding-bottom:80px;
+  padding-bottom:100px;
   margin-top:0px;
   margin-bottom:0px;
   height: 10px;
