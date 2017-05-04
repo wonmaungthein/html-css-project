@@ -10,6 +10,10 @@
   width: auto;
 }
 
+.FirstArticle:first-child {
+      background: #F4D03F;
+}
+
 .btn {
   padding-left: 30px;
   padding-right:30px;
@@ -20,7 +24,6 @@
 .button container {
   padding-left: 380px;
 }
-
 .btn:hover,
 .btn:focus {
     background: #F4D03F;
@@ -56,11 +59,6 @@
 
 footer {
   padding-right:auto;
-}
-
-.ArticleOne:hover,
-.ArticleOne:focus {
-    background: #F4D03F;
 }
 
 img {
