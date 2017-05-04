@@ -4,15 +4,11 @@
   padding: 50px;
   padding-left:250px;
   padding-right:0px;
-
-
-  
   padding-bottom:80px;
   margin-top:0px;
   margin-bottom:0px;
   height: 10px;
   width: auto;
-    
 }
 
 .MainPage {
@@ -21,18 +17,13 @@
   padding-right: 50px;
   padding-bottom: 50px;
   padding-top:30px;
-
-
-
-
 }
+
 .FooterBlock{    
   padding: 50px;
   margin:0px;
   padding-left: 250px;
   padding-right:0px;
-
-
   background-color:#3f7bbf;
 }
 
