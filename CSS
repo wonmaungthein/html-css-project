@@ -1,9 +1,30 @@
-.MainTitle{
+.MainTitle {
   background-color:#3f7bbf;
   border-color:black;
-  border: 5px solid;
+  padding: 50px;
+  padding-left:120px;
+  padding-bottom:80px;
+  margin-top:0px;
+  margin-bottom:0px;
+  height: 10px;
+  width: auto;
 }
 
-.FooterBlock{
+.MainPage {
+  background-color: #01ffff;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-top:30px;
+}
+
+.FooterBlock {    
+  padding: 50px;
+  margin:0px;
+  padding-left: 110px;
   background-color:#3f7bbf;
+}
+
+footer {
+  padding-right:auto;
 }
