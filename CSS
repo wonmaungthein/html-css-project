@@ -31,22 +31,18 @@ footer {
   padding-right:auto;
 }
 
-.ConsistencyPhoto {
-  height= "20";
-  width= "30";
-}
 
-.MotivationPhoto {
-  height= "20";
-  width= "30";
-}
 
-.GoalPhoto {
-  height= "20";
-  width= "30";
-}
 
 .ArticleOne:hover,
 .ArticleOne:focus {
     background: #F4D03F;
+}
+
+img {
+    min-width: 300px;
+    min-width: 300px;
+    max-width: 400px; 
+    max-height:400px;
+    padding-left: 30px;
 }
