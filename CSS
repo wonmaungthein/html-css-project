@@ -1,13 +1,18 @@
-.MainTitle {
+.MainTitle{
   background-color:#3f7bbf;
   border-color:black;
   padding: 50px;
-  padding-left:120px;
+  padding-left:250px;
+  padding-right:0px;
+
+
+  
   padding-bottom:80px;
   margin-top:0px;
   margin-bottom:0px;
   height: 10px;
   width: auto;
+    
 }
 
 .MainPage {
@@ -16,15 +21,36 @@
   padding-right: 50px;
   padding-bottom: 50px;
   padding-top:30px;
-}
 
-.FooterBlock {    
+
+
+
+}
+.FooterBlock{    
   padding: 50px;
   margin:0px;
-  padding-left: 110px;
+  padding-left: 250px;
+  padding-right:0px;
+
+
   background-color:#3f7bbf;
 }
 
 footer {
   padding-right:auto;
+}
+
+.ConsistencyPhoto {
+  height= "20";
+  width= "30";
+}
+
+.MotivationPhoto {
+  height= "20";
+  width= "30";
+}
+
+.GoalPhoto {
+  height= "20";
+  width= "30";
 }
