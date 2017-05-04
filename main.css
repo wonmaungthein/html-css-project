@@ -18,28 +18,39 @@
   padding-left: 30px;
   padding-right:30px;
   padding-top:0px;
-  padding-bottom:20ps;  
+  padding-bottom:30ps;  
 }
 
-.button container {
-  padding-left: 380px;
+.button-container {
+  float: right;  
+  padding-right: 70px;
+  padding-top: 30px;
+  /*padding-left: 380px;*/
 }
+
 .btn:hover,
 .btn:focus {
     background: #F4D03F;
 }
+
+
 .MainTitle{
   background-color:#3f7bbf;
   border-color:black;
   padding: 50px;
   padding-left:150px;
   padding-right:0px;
-  padding-bottom:100px;
+  padding-bottom:120px;
   margin-top:0px;
   margin-bottom:0px;
   height: 10px;
   width: auto;
 }
+
+h1{
+  display: inline-block;
+}
+
 
 .MainPage {
   background-color: #01ffff;
