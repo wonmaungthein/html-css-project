@@ -10,7 +10,7 @@
   width: auto;
 }
 
-.FirstArticle:first-child {
+article:first-child {
       background:#F1C40F  ;
 }
 
