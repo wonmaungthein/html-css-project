@@ -10,7 +10,7 @@
   width: auto;
 }
 
-/*article:first-child {*/
+.Article.One:first-child {
       background:#F1C40F  ;
 }
 
@@ -75,11 +75,11 @@ footer {
 }
 
 img {
-    min-width: 300px;
-    min-height: 300px;
-    max-width: 400px; 
-    max-height:400px;
-    padding-left: 30px;
+    min-width: 200px;
+    min-height: 200px;
+    max-width: 200px; 
+    max-height:200px;
+    padding-left: 0px;
 }
 
 
@@ -92,11 +92,12 @@ img {
 }
 
 .Content {
-  display: flex;
+  display: block;
   flex-direction: row;
   border: 3px solid black;
   width: 1000px;
   height: 1000px;
+  align-content: space-between;
 }
 
 
@@ -110,8 +111,10 @@ img {
 
 .Article {
   display: flex;
-  flex-direction: row;
-  width: 166px;
+  flex-direction: column;
+  width: 333px;
+  max-height:500px;
+
 }
 
 .One.Two.Three {
