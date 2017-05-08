@@ -10,7 +10,7 @@
   width: auto;
 }
 
-article:first-child {
+/*article:first-child {*/
       background:#F1C40F  ;
 }
 
@@ -86,13 +86,17 @@ img {
 .MainFlexbox {
   display: flex;
   flex-direction: row;
+  width: 100%;
+  
+  
 }
 
 .Content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   border: 3px solid black;
-
+  width: 1000px;
+  height: 1000px;
 }
 
 
@@ -101,5 +105,36 @@ img {
   flex-direction: column;
   background-color: palevioletred;
   border: 3px solid gold;
+  width: 400px;
+}
 
-  
+.Article {
+  display: flex;
+  flex-direction: row;
+  width: 166px;
+}
+
+.One.Two.Three {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+.TopRowArticle {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  height: 500px;
+}
+
+
+
+
+.BottomRowArticle {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  height: 500px;
+}
+
