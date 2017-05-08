@@ -70,6 +70,8 @@ h1{
 
 footer {
   padding-right:auto;
+  width: 100%;
+  height: 30%;
 }
 
 img {
@@ -78,4 +80,33 @@ img {
     max-width: 400px; 
     max-height:400px;
     padding-left: 30px;
+}
+
+.side-bar-container {
+  background-color: orange;
+  height: 50%;
+  width: 50%;
+}
+
+.flexbox-container {
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.SidebarContainer {
+  float: right;
+  width: 200px;
+}
+
+.AllArticleContainer {
+  float: left;
+  width: 700px;
+}
+
+.MainPageContainer {
+  width: 100%;
+  height: 100%;
+  border: 2px solid black;
 }
