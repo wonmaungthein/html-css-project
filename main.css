@@ -93,7 +93,7 @@ img {
 
 .Content {
   display: block;
-  flex-direction: row;
+  flex-direction: column;
   border: 3px solid black;
   width: 1000px;
   height: 1000px;
@@ -113,8 +113,10 @@ img {
   display: flex;
   flex-direction: column;
   width: 333px;
-  max-height:500px;
-
+  max-height:480px;
+  border: 3px solid blueviolet;
+  padding-left: 10px;
+  
 }
 
 .One.Two.Three {
@@ -128,7 +130,7 @@ img {
   display: flex;
   flex-direction: row;
   width: 1000px;
-  height: 500px;
+  max-height:500px;
 }
 
 
@@ -138,6 +140,14 @@ img {
   display: flex;
   flex-direction: row;
   width: 1000px;
-  height: 500px;
+  max-height:500px;
 }
 
+
+
+@media screen and (min-width:550px) {
+	.Content {
+		flex-direction: row;
+		align-items: center;
+  }
+}
