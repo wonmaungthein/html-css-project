@@ -75,10 +75,10 @@ footer {
 }
 
 img {
-    min-width: 200px;
-    min-height: 200px;
-    max-width: 200px; 
-    max-height:200px;
+    min-width: 150px;
+    min-height: 150px;
+    max-width: 150px; 
+    max-height:150px;
     padding-left: 0px;
 }
 
@@ -94,7 +94,6 @@ img {
 .Content {
   display: block;
   flex-direction: column;
-  border: 3px solid black;
   width: 1000px;
   height: 1000px;
   align-content: space-between;
@@ -105,7 +104,8 @@ img {
   display: flex;
   flex-direction: column;
   background-color: palevioletred;
-  border: 3px solid gold;
+  padding-left: 10px;
+  padding-right: 10px;
   width: 400px;
 }
 
@@ -113,17 +113,15 @@ img {
   display: flex;
   flex-direction: column;
   width: 333px;
-  max-height:480px;
-  border: 3px solid blueviolet;
-  padding-left: 10px;
-  
+  max-height:480px;  
+  padding-left: 5px;
+  padding-left: 20px;
 }
 
 .One.Two.Three {
   display: flex;
   flex-direction: row;
 }
-
 
 
 .TopRowArticle {
@@ -146,8 +144,8 @@ img {
 
 
 @media screen and (min-width:550px) {
-	.Content {
-		flex-direction: row;
+	.TopRowArticle .BottomRowArticle {
+		flex-direction: column;
 		align-items: center;
   }
 }
