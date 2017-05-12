@@ -11,7 +11,7 @@
 }
 
 .Article.One:first-child {
-      background:#F1C40F  ;
+      background:#F1C40F;
 }
 
 .btn {
@@ -49,6 +49,7 @@
 
 h1{
   display: inline-block;
+  /* border: solid; */
 }
 
 
@@ -113,14 +114,16 @@ img {
   display: flex;
   flex-direction: column;
   width: 333px;
-  max-height:480px;  
+  max-height:480px;
   padding-left: 5px;
+  /* border: solid; */
   padding-left: 20px;
 }
 
 .One.Two.Three {
   display: flex;
   flex-direction: row;
+
 }
 
 
@@ -143,9 +146,389 @@ img {
 
 
 
-@media screen and (min-width:550px) {
+
+
+
+
+@media screen and (min-width:400px) {
+  .site-header.container{
+  background-color:#3f7bbf;
+  padding: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom:80px;
+  margin-top: -7px;
+  margin-right: -8px;
+  margin-bottom:0px;
+  height: 10px;
+  width: auto;
+}
+}
+
+@media screen and (min-width:400px) {
+.Article.One:first-child {
+      background:#F1C40F;
+      height:100%;
+      width:100%;
+      display:flex;
+      flex-direction:column;
+      margin-top: -10px;
+      margin-bottom:1rem;
+      padding-left:5px;
+      padding-right:0px;
+      padding-bottom: 428px;
+}
+}
+
+@media screen and (min-width:400px) {
+.Article.One p {
+	/* border: solid; */
+	width:360px;
+}
+}
+
+@media screen and (min-width:400px) {
+  
+.Two {
+  height:100%;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  margin-top: -10px;
+  marg;
+  margin-bottom: -1rem;
+  adding-left:5px;
+  padding-right:0px;
+  padding-bottom: 384px;
+}
+
+}
+
+@media screen and (min-width:400px) {
+.Article.Two p {
+	/* border:solid; */
+	width: 349px;
+	height: 326px;
+	margin-left: -14px;
+} }
+
+@media screen and (min-width:400px) {
+.Three {
+  height: 110px;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  margin-top:1rem;
+  margin-bottom: 50px;
+  padding-left:10px;
+  padding-right:20px;
+  padding-bottom: 120%;
+  /* border: solid; */
+}
+}
+
+@media screen and (min-width:400px) {
+.Four {
+  height:100%;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  marg;
+  argin-bottom:1rem;
+  padding-left:10px;
+  padding-right:20px;
+  padding-bottom: 120%;
+} }
+
+@media screen and (min-width:400px) {
+.Five {
+  height:100%;
+  width: 88%;
+  display:flex;
+  flex-direction:column;
+  padding-left: 5px;
+  margin-bottom: -17px;
+  padding-left: -5;
+  padding-right:20px;
+  padding-bottom: 120%;
+}
+}
+
+
+@media screen and (min-width:400px) {
+.Six {
+  height: 109px;
+  widt;
+  height: 113px;
+  width: 348px;
+  isplay:flex;
+  flex-direction:column;
+  margin-top:1rem;
+  margin-bottom: 23rem;
+  padding-left: 5px;
+  padding-right:20px;
+  padding-bottom: 120%;
+}
+}
+
+@media screen and (min-width:400px) {
+
+.btn {
+  padding-left: 30px;
+  padding-right:30px;
+  padding-top:0px;
+  /* border: solid; */
+  padding-bottom:30ps;
+}
+}
+
+
+@media screen and (min-width:400px) {
+.button-container {
+  float: right;
+  padding-right: 80px;
+  padding-top: 30px;
+  /*padding-left: 380px;*/
+  /* border: solid; */
+  padding-bottom: 0px;
+  padding-top: 50px;
+  margin-bottom: 23px;
+}
+}
+.btn:hover,
+.btn:focus {
+    background: #F4D03F;
+}
+
+
+@media screen and (min-width:400px) {
+.MainTitle{
+  background-color:#3f7bbf;
+  border-color:black;
+  padding: 50px;
+  padding-left:150px;
+  padding-right:0px;
+  padding-bottom:120px;
+  margin-top:0px;
+  margin-bottom:0px;
+  height: 10px;
+  width: auto;
+  /* border: solid; */
+}
+}
+
+@media screen and (min-width:400px) {
+h1{
+  display: inline-block;
+  margin-top: -1px;
+}
+
+}
+
+@media screen and (min-width:400px) {
+.MainPage {
+  background-color: #01ffff;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-top:30px;
+}
+}
+
+
+@media screen and (min-width:400px) {
+
+img {
+    min-width: 150px;
+    min-height: 150px;
+    max-width: 150px;
+    max-height:150px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+}
+
+@media screen and (min-width:400px) {
+
+.MainFlexbox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 1156px;
+  margin-top: 9rem;
+  /* border: solid; */
+  /* background-color: beige; */
+  ge; */
+  padding-top: 10px;
+  padding-bottom: 1964px;
+}
+}
+
+
+@media screen and (min-width:400px) {
+
+.Content {
+  display: block;
+  flex-direction: column;
+  width: inherit;
+  height: 0%;
+  align-content: center;
+}
+}
+
+@media screen and (min-width:400px) {
+
+.Sidebar {
+  display: flex;
+  flex-direction: column;
+  background-color: palevioletred;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 381px;
+  height: 535px;
+  margin-top: 5rem;
+  margin-bottom: -8rem;
+  /* border: solid; */
+  padding-bottom: 431px;
+  padding-top: 0px;
+}
+}
+
+
+
+@media screen and (min-width:400px) {
+
+.Article {
+  display: flex;
+  flex-direction: column;
+  width: 97%;
+  height: 55%;
+  /* border: solid; */
+}
+}
+
+@media screen and (min-width:400px) {
+.One.Two.Three {
+  display: flex;
+  flex-direction: row;
+}
+
+}
+
+
+@media screen and (min-width:400px) {
+.TopRowArticle {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 722px;
+  margin-bottom:20rem;
+  /* border: solid; */
+}
+}
+
+
+@media screen and (min-width:400px) {
+.BottomRowArticle {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height:100%;
+  margin-bottom:20rem;
+  margin-top: 49rem;
+  /* border: solid; */
+}
+}
+
+
+
+@media screen and (min-width:400px) {
+.Content {
+  display: block;
+  flex-direction: row;
+  max-width:100%;
+  height: 99%;
+  margin-bottom: -48px;
+  align-content: space-between;
+  /* border: solid; */
+  /* background-color: coral; */
+  padding-bottom: 1509px;
+  padding-top: -11px;
+  /* border: solid; */
+}
+}
+
+
+@media screen and (min-width:400px) {
+
 	.TopRowArticle .BottomRowArticle {
+	    display:flex
 		flex-direction: column;
+		justify-content:center
 		align-items: center;
+		max-width:100%
   }
 }
+
+
+@media screen and (min-width:400px) {
+	
+	/*.TopRowArticle {
+	  /* display:flex; */
+	  ex-direction: column;
+	  /* height: 300px; */
+	  background-color: yellow;
+	  padding-bottom: 818px;
+	  max-width: 100%
+	  align-content:space-between;
+	  /* justify-content:space-between; */
+	}
+}
+
+
+@media screen and (min-width:400px) {
+	.Article.One {
+	  border:aliceblue 3px solid blue;
+	}
+}
+
+
+@media screen and (min-width:400px) {
+
+	.BottomRowArticle {
+	  display:flex;
+	  flex-direction:column;
+	  max-width:100%
+	}
+}
+
+	@media screen and (min-width:400px) {
+
+.FooterBlock{
+  padding: 50px;
+  margin-top: -3px;
+  padding-left: 250px;
+  padding-right:0px;
+  background-color:#3f7bbf;
+  /* border:solid; */
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+}
+  }
+
+  @media screen and (min-width:400px) {
+
+h4 {
+	/* border:solid; */
+	height: 102px;
+	width: 323px;
+	margin-left: -200px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+	
+}
+
