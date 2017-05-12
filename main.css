@@ -11,7 +11,7 @@
 }
 
 .Article.One:first-child {
-      background:#F1C40F;
+  background:#F1C40F;
 }
 
 .btn {
@@ -25,12 +25,11 @@
   float: right;  
   padding-right: 70px;
   padding-top: 30px;
-  /*padding-left: 380px;*/
 }
 
 .btn:hover,
 .btn:focus {
-    background: #F4D03F;
+  background: #F4D03F;
 }
 
 .MainTitle{
@@ -48,7 +47,6 @@
 
 h1{
   display: inline-block;
-  /* border: solid; */
 }
 
 .MainPage {
@@ -59,7 +57,7 @@ h1{
   padding-top:30px;
 }
 
-.FooterBlock{    
+.FooterBlock {    
   padding: 50px;
   margin:0px;
   padding-left: 250px;
@@ -68,11 +66,11 @@ h1{
 }
 
 img {
-    min-width: 150px;
-    min-height: 150px;
-    max-width: 150px; 
-    max-height:150px;
-    padding-left: 0px;
+  min-width: 150px;
+  min-height: 150px;
+  max-width: 150px; 
+  max-height:150px;
+  padding-left: 0px;
 }
 
 .MainFlexbox {
@@ -128,29 +126,17 @@ img {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (min-width: 400px) {
 
   .Content {
-  display: block;
-  flex-direction: column;
-  width: inherit;
-  height: 0%;
-  align-content: center;
-  margin-bottom: -48px;
-  padding-bottom: 1509px;
-  padding-top: -11px;
+    display: block;
+    flex-direction: column;
+    width: inherit;
+    height: 0%;
+    align-content: center;
+    margin-bottom: -48px;
+    padding-bottom: 1509px;
+    padding-top: -11px;
 }
 
   h1{
@@ -172,15 +158,3 @@ img {
     padding-top: 0px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
