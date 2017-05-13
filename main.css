@@ -1,13 +1,15 @@
-.site-header container{
+.site-header-container{
   background-color:#3f7bbf;
-  padding: 50px;
-  padding-left:250px;
-  padding-right:0px;
-  padding-bottom:80px;
-  margin-top:0px;
-  margin-bottom:0px;
-  height: 10px;
-  width: auto;
+  /* padding: 50px; */
+  /* padding-left:250px; */
+  /* padding-right:0px; */
+  padding-bottom: 95px;
+  margin-top: -20px;
+  margin-bottom: 1px;
+  height: 28px;
+  margin-bottom: 10erm;
+  width: 100%;
+  /*border: 3px solid;*/
 }
 
 .Article.One:first-child {
@@ -15,16 +17,26 @@
 }
 
 .btn {
-  padding-left: 30px;
-  padding-right:30px;
-  padding-top:0px;
-  padding-bottom:30ps;  
+  width: 27%;
+  /* justify-content: center; */
+  padding-left: -9px;
+  padding-right: -11px;
+  /* padding-top:0px; */
+  padding-bottom:30ps;
+  border: 1px solid;
 }
 
-.button-container {
-  float: right;  
-  padding-right: 70px;
-  padding-top: 30px;
+.Nav-bar {
+  /* float: right; */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /*border: 3px solid;*/
+  height: 96px;
+  /*background-color: yellow;*/
+  margin-bottom: 0%;
+  display: flex;
+  flex-direction: column;
 }
 
 .btn:hover,
@@ -35,18 +47,19 @@
 .MainTitle{
   background-color:#3f7bbf;
   border-color:black;
-  padding: 50px;
+  /*padding: 50px;
   padding-left:150px;
   padding-right:0px;
   padding-bottom:120px;
   margin-top:0px;
   margin-bottom:0px;
   height: 10px;
-  width: auto;
+  /*width: 100%;*/
 }
 
 h1{
-  display: inline-block;
+  text-align: center;
+  padding-top: 7%;
 }
 
 .MainPage {
@@ -55,14 +68,15 @@ h1{
   padding-right: 50px;
   padding-bottom: 50px;
   padding-top:30px;
+  width: 100%;
 }
 
-.FooterBlock {    
-  padding: 50px;
-  margin:0px;
-  padding-left: 250px;
-  padding-right:0px;
-  background-color:#3f7bbf;
+.FooterBlock {
+  width: 100px;
+  height: 114px;
+  margin-top: 0px;
+  background-color: #3F7BBF;
+  /*border: 3px solid;*/
 }
 
 img {
@@ -73,105 +87,82 @@ img {
   padding-left: 0px;
 }
 
+h4 {
+  margin-left: 19%;
+}
 .MainFlexbox {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
+  /*border: 3px solid;*/
+  /*padding-left:;*/
 }
 
 .Content {
-  display: block;
-  flex-direction: column;
-  width: 1000px;
-  height: 1000px;
-  align-content: space-between;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  /*border: 3px solid;*/
+  padding-left: 0px;
 }
 
 .Sidebar {
-  display: flex;
-  flex-direction: column;
   background-color: palevioletred;
-  padding-left: 10px;
-  padding-right: 10px;
-  width: 400px;
+  /* padding-left: 10px; */
+  /* padding-right: 10px; */
+  width: 100%;
+  height: 495px;
+  /* margin: auto; */
+  /*border: 3px solid;*/
+  padding-left: 2%;
 }
 
 .Article {
   display: flex;
   flex-direction: column;
-  width: 333px;
-  max-height:480px;
-  padding-left: 5px;
-  padding-left: 20px;
+  width: 100%;
+  /*border: 3px solid;*/
+  margin-bottom: 0%;
+  /*border: 3px solid;*/
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 505px;
 }
 
-.One.Two.Three {
+
+.FooterBlock {
+  width: 103%;
   display: flex;
-  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
-.TopRowArticle {
+@media screen and (min-width: 320px) {
+
+.MainFlexbox {
+  display: flex; 
+  flex-direction: column;
+}
+
+.Sidebar {
   display: flex;
-  flex-direction: row;
-  width: 1000px;
-  max-height:500px;
+  flex-direction: column;
+  width: 100%;
 }
 
-.BottomRowArticle {
+.FooterBlock {
   display: flex;
-  flex-direction: row;
-  width: 1000px;
-  max-height:500px;
+  width: 102%;
 }
 
-
-
-@media screen and (min-width: 400px) {
-
-  .Content {
-    display: flex;
-    flex-direction: column;
-    max-width: 24em;
-    max-height: 63em;
-    align-content: center;
-    margin-bottom: -53px;
-    padding-bottom: 22em;
-    padding-top: -11px;
+.site-header {
+  display: flex;
+  width: 100%;
+  border: 3px solid black;
 }
 
-  h1{
-    display: inline-block;
-    margin-top: -1px;
-  }
-    
-  .Sidebar {
-    display: flex;
-    flex-direction: column;
-    background-color: palevioletred;
-    padding-left: 1em;
-    padding-right: 1em;
-    width: 25em;
-    /* height: 0px; */
-    margin-top: 61rem;
-    margin-bottom: 0rem;
-    margin-left: -24em;
-    margin-right: -1em;
-    padding-bottom: -4em;
-    padding-bottom: -31em;
-    padding-top: 0px;
-  }
+@media screen and (min-width: 670px) {}
 
-  .FooterBlock {
-  padding: 50px;
-  margin-left: 0em;
-  margin-top: 0em;
-  margin-right: -1em;
-  padding-left: 4em;
-  padding-right:0px;
-  background-color:#3f7bbf;
-}
 
-h4 {
-  
-}
-}
