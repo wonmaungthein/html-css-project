@@ -6,7 +6,7 @@
   padding-bottom: 95px;
   margin-top: -20px;
   margin-bottom: 1px;
-  height: 28px;
+  height: 57px;
   margin-bottom: 10erm;
   width: 100%;
   /*border: 3px solid;*/
@@ -18,6 +18,7 @@
 
 .btn {
   width: 27%;
+  height: 62%;
   /* justify-content: center; */
   padding-left: -9px;
   padding-right: -11px;
@@ -139,12 +140,158 @@ h4 {
   align-items: center;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 768px) {
 
-.MainFlexbox {
-  display: flex; 
-  flex-direction: column;
+.Content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
+
+.column-R {
+  display: flex;
+  height: 14px;
+  padding-bottom: 78%;
+  float: right;
+  /* border: 3px solid; */
+  width: 100%;
+}
+
+.column-l {
+  float: left;
+  display: flex;
+  /* border: 3px solid; */
+  width: 100%;
+  padding-bottom: 16%;
+  height: 36%;
+}
+
+.FooterBlock {
+  width: 103%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 140px;
+}
+
+.Sidebar {
+  background-color: palevioletred;
+  /* padding-left: 10px; */
+  /* padding-right: 10px; */
+  width: 100%;
+  height: 255px;
+  /* margin: auto; */
+  /*border: 3px solid;*/
+  padding-left: 2%;
+}
+
+h4 {
+  padding-left: -8%;
+}
+
+/*@media screen and (min-width: 900px) 
+  .Nav-bar {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .btn {
+    height: 59%;
+  }
+
+  .MainFlexbox {
+    display: flex;
+    flex-direction: row;
+    width: 452%;
+    padding-bottom: 2%;
+  }
+ 
+ .Content {
+   display: flex;
+   flex-direction: column;
+   width: 16%;
+   height: 1311px;
+ }
+
+ .Sidebar {
+   display: flex;
+   flex-direction: column;
+   width: 230px;
+   /* border: solid; */
+   /*height: 11%;
+   padding-left: 10px;
+   padding-right: 5px;
+   align-items: center;
+   align-content: center;
+ }
+
+.Article.column-R {
+  width: 49%;
+}
+
+
+.Article.column-l {
+  width: 49%;
+}
+
+/*h4 {*/
+  /* border: solid; 
+  margin-left: 30%;
+/*}*/
+
+
+@media screen and (min-width: 1023px) {
+  .MainFlexbox {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+.Content {
+  width: 77%;
+  display: flex;
+  flex-direction: row;
+}
+
+.Nav-bar {
+  display: flex;
+  flex-direction: row;
+  height: -1%;
+  /* border: solid; */
+}
+.Article.column-l {
+  width: 49%;
+}
+
+.Article.column-R {
+  height: 40%;
+}
+
+.Sidebar {
+  width: 21%;
+  height: 20%;
+  padding-right: 1%;
+}
+
+}
+
+
+/*This applies from 0px to 600px
+@media screen and (min-width:320px) {
+body {
+  background: red;
+}
+}
+
+/This applies from 600px onwards
+@media screen and (min-width: 600px) {
+  body {
+    background: green;
+  }
+}
+
+
+ 
 
 .Sidebar {
   display: flex;
@@ -163,6 +310,4 @@ h4 {
   border: 3px solid black;
 }
 
-@media screen and (min-width: 670px) {}
-
-
+/*@media screen and (min-width: 670px) {}*/
