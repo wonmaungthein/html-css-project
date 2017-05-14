@@ -240,7 +240,7 @@ h4 {
 /*}*/
 
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 1020px) {
   .MainFlexbox {
     display: flex;
     flex-direction: row;
