@@ -189,7 +189,12 @@ h4 {
   padding-left: -8%;
 }
 
-/*@media screen and (min-width: 900px) 
+/*@media screen and (min-width: 900px) {
+
+  .body {
+    width: 100%;
+  }
+  
   .Nav-bar {
     display: flex;
     flex-direction: row;
@@ -202,8 +207,10 @@ h4 {
   .MainFlexbox {
     display: flex;
     flex-direction: row;
-    width: 452%;
+    width: 100%;
     padding-bottom: 2%;
+    height: 139%;
+    border: solid;
   }
  
  .Content {
@@ -217,8 +224,10 @@ h4 {
    display: flex;
    flex-direction: column;
    width: 230px;
-   /* border: solid; */
-   /*height: 11%;
+   flex-direction: column;
+   }
+   
+   
    padding-left: 10px;
    padding-right: 5px;
    align-items: center;
@@ -246,9 +255,9 @@ h4 {
     flex-direction: row;
     width: 100%;
   }
-
+}
 .Content {
-  width: 77%;
+  width: 100%;
   display: flex;
   flex-direction: row;
 }
@@ -268,7 +277,8 @@ h4 {
 }
 
 .Sidebar {
-  width: 21%;
+  width: 27%;
+  flex-direction: row;
   height: 20%;
   padding-right: 1%;
 }
