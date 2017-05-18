@@ -177,7 +177,7 @@ h4 {
 .Sidebar {
   background-color: palevioletred;
   /* padding-left: 10px; */
-  ding-right: 0%;
+  padding-right: 0%;
   width: 98%;
   height: 255px;
   /* margin: auto; */

@@ -14,6 +14,10 @@ form {
     padding-top: 5rem;
 }
 
+.btn {
+    height: 30px;
+    width: 80px;
+}
 User {
     border: solid;
     height: 50px;
