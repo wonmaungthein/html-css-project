@@ -13,6 +13,24 @@
   /*border: 3px solid;*/
 }
 
+h1 {
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #4A8FCB;
+    height: 150px;
+}
+
 .Article.One:first-child {
   background:#F1C40F;
 }
@@ -26,6 +44,30 @@
   /* padding-top:0px; */
   padding-bottom:30ps;
   border: 1px solid;
+  height: 30px;
+  width: 80px;
+
+}
+
+Message {
+    border: solid;
+    height: 300px;
+     margin-bottom: 3rem;
+}
+
+User {
+    border: solid;
+    height: 50px;
+    margin-bottom: 3rem;
+}
+
+email {
+    margin-bottom: 3rem;
+}
+
+Email {
+    border: solid;
+    height: 50px;
 }
 
 .Navbar {
@@ -39,9 +81,9 @@
   margin-bottom: 0%;
   display: flex;
   flex-direction: column;
-
 }
 
+/*navbar navbar-light bg-faded*/
 .btn:hover,
 .btn:focus {
   background: #F4D03F;
@@ -73,6 +115,19 @@ h1{
   padding-bottom: 50px;
   padding-top:30px;
   width: 100%;
+  display: flex;
+  border: 2px solid black;
+  height: 1000px;
+  justify-content: center;
+  background-color: #FFC300;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 1000px;
+    padding-top: 5rem;
 }
 
 .FooterBlock {
@@ -95,6 +150,7 @@ h4 {
   margin-left: 8%;
   font-size: larger;
 }
+
 .MainFlexbox {
   display: flex;
   flex-direction: column;
@@ -137,7 +193,6 @@ h4 {
   height: 703px;
 }
 
-
 .FooterBlock {
   width: 103%;
   display: flex;
@@ -146,7 +201,6 @@ h4 {
 }
 
 @media screen and (min-width: 768px) {
-
 .Content {
   display: flex;
   flex-direction: row;
@@ -197,7 +251,6 @@ h4 {
 }
 
 @media screen and (min-width: 950px) {
-
   .body {
     width: 100%;
   }
@@ -242,7 +295,6 @@ h4 {
   /* border: solid; */
 }
 
-
 .column-l {
   width: 100%;
   height: 58%;
@@ -253,14 +305,20 @@ h4 {
   margin-left: 30%;
 }
 
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #4A8FCB;
+    height: 150px;
+}
+
 .FooterBlock {
   /* border: solid; */
   height: 145px;
 }
 
-
 @media screen and (min-width: 1020px) {
-
   .site-header-container {
     width: 100%;
     height: 60%;
@@ -271,6 +329,7 @@ h4 {
     display: flex;
     flex-direction: row;
   }
+
   .MainFlexbox {
     display: flex;
     flex-direction: row;
@@ -281,6 +340,7 @@ h4 {
 .column-l {
   height: 46%;
 }
+
 .MainTitle {
   height: 115px;
 }
@@ -288,7 +348,6 @@ h4 {
 h1 {
   padding-top: 6%;
 }
-
 
 .Content {
   width: 100%;
@@ -300,14 +359,12 @@ h1 {
 .Navbar {
   display: flex;
   flex-direction: row;
-  height: -1%;
-  
+  height: -1%;  
 }
 
 .Article .column-l {
   width: 49%;
   height: 30%;
-
 }
 
 .column-R {
@@ -328,45 +385,4 @@ h1 {
 
 }
 
-/*This applies from 0px to 600px
-@media screen and (min-width:320px) {
-body {
-  background: red;
-}
-}
 
-/This applies from 600px onwards
-@media screen and (min-width: 600px) {
-  body {
-    background: green;
-  }
-}
-
-
- 
-
-.Sidebar {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.FooterBlock {
-  display: flex;
-  width: 102%;
-}
-
-.site-header {
-  display: flex;
-  width: 100%;
-  border: 3px solid black;
-}
-
-/*@media screen and (min-width: 670px) {}*/
-
-
-
-
-
-
-  
